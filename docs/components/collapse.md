@@ -37,9 +37,15 @@ You can use a link with the `href` attribute, or a button with the `data-target`
 </div>
 {% endexample %}
 
-## Accordion example
+## Example of collapsing panels
 
-Extend the default collapse behavior to create an accordion.
+Extending the default collapse behavior allows us to create an accordion.
+Just like with the previous example, clicking the panel titles below show and hide another element via class changes:
+
+- `.collapse` hides content
+- `.collapsing` is applied during transitions
+- `.collapse.in` shows content
+
 
 {% example html %}
 <div id="accordion" role="tablist" aria-multiselectable="true">
